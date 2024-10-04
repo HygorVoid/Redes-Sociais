@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root {
-    --bg-color:  #E6B9A6;
-    --primary-color: #EEEDEB;
-    --secondary-color: #2F3645;
+    --bg-color:  #16325B;
+    --primary-color: #78B7D0;
+    --secondary-color: #FFDC7F;
     --font: "Nunito", sans-serif;
 }
 
@@ -44,6 +44,21 @@ nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
     transition: transform 0.1s;
+}
+
+.graficos-container {
+    margin: 5rem;
+}
+.graficos-container__texto {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secondary-color) solid 2px;
+}
+
+span {
+    font-weight: bold;
+    color: var(--secondary-color);
 }
 
 footer {
